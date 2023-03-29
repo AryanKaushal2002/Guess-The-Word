@@ -9,11 +9,11 @@ import java.util.Random;
 
 public class Words
 {    
-    //private String[] randomWords={"animals","happiness","indefinite","steady","birthday","extreme","rights","properties","ceremony","independence","beneath","information","students","employee"};
+    
     private String[] randomWords;
     private String selectedWord;
     private char[] letters;
-    //public  final String showSelected=selectedWord;
+    
     private Random random=new Random();
     public Words()
     {
@@ -30,8 +30,7 @@ public class Words
         randomWords= listOfStrings.toArray(new String[0]);
 
         selectedWord=randomWords[random.nextInt(randomWords.length)];
-        letters=new char[selectedWord.length()];
-        //showSelected=selectedWord;        
+        letters=new char[selectedWord.length()];             
     }
     
     public String toString()
