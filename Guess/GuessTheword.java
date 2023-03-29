@@ -30,10 +30,7 @@ public class GuessTheword
         lastRound=userGuess.charAt(0);
     }
     void checkInput()
-    {
-        //Words ob= new Words();
-        //final String show=ob.showSelected;
-        //System.out.println(show);
+    {        
         boolean isGuessedRight= randomWords.guess(lastRound);
         if(isGuessedRight)
         {
