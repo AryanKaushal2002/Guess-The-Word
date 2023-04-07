@@ -6,7 +6,7 @@ public class GuessTheword
 {
     private boolean play=true;
     private Words randomWords=new Words();
-    private Scanner ob = new Scanner(System.in);//also prevents the loop from running infinitely
+    private Scanner ob = new Scanner(System.in);
     private int rounds=10;
     private char lastRound;
     public void start()
@@ -38,7 +38,7 @@ public class GuessTheword
             {
                 System.out.println("Congrats, you won!!");
                 System.out.println("The word is : "+randomWords);
-                play=false; //no longer needs to run
+                play=false; // stop condition
             }
         }
         else{
@@ -47,7 +47,6 @@ public class GuessTheword
             if(rounds == 0)
             {
                 System.out.println("Game Over!!");
-                //System.out.println("The word was : "+show);
                 play=false;
             }
         }
