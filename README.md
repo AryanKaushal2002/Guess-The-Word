@@ -1,5 +1,5 @@
 # Guess-The-Word
-A mini-game inspired from the famous Wordle but instead of 5 letters, we are playing with 6. Its a bit more challenging.
+A mini-game inspired from the famous Wordle but instead of words having 5 letters, we are playing with 6. Its a bit more challenging.
 The execution starts from Application.java file. The Folder Guess contains 2 java files from which Application.java imports functions and variables.
 Here is a screenshot of what the game output looks like:
 
